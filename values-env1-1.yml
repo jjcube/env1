@@ -7,7 +7,7 @@ image:
   pullPolicy: IfNotPresent
 
 enterprise:
-  name: appsapp
+  name: appsapp3
 namespace:
  name: default
 
