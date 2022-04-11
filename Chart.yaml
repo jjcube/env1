@@ -25,4 +25,4 @@ appVersion: "1.0"
 dependencies:
 - name: apache
   version: 0.1.0
-  repository: https://github.com/jjcube/helm-chart-test/
+  repository: https://jjcube.github.io/helm-chart-test
