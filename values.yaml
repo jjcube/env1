@@ -1,13 +1,13 @@
 
 appname: apache
-replicaCount: 2
+replicaCount: 1
 image:
   repository: docker.io/bitnami/apache
   tag: 2.4.41-debian-10-r29
   pullPolicy: IfNotPresent
 
 enterprise:
-  name: app1
+  name: myapp1
 namespace:
  name: default
 
@@ -33,11 +33,11 @@ ingress:
 
 resources: 
   limits:
-    cpu: 300m
-    memory: 260Mi
+    cpu: 400m
+    memory: 360Mi
   requests:
-    cpu: 200m
-    memory: 128Mi
+    cpu: 250m
+    memory: 148Mi
 
 serviceAccount:
   create: false
