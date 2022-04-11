@@ -1,4 +1,0 @@
-app2:
- appname: myapp2
- replicaCount: 1
- 
