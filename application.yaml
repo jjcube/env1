@@ -1,0 +1,12 @@
+project: default
+source:
+  repoURL: 'https://github.com/jjcube/env1.git'
+  path: .
+  targetRevision: HEAD
+  helm:
+    valueFiles:
+      - values-env1-1.yml
+      - values-env1-2.yaml
+destination:
+  server: 'https://kubernetes.default.svc'
+  namespace: default
